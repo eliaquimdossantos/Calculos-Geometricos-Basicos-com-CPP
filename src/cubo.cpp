@@ -3,10 +3,10 @@
 Cubo::Cubo(float aresta_){
     aresta = aresta_;
 }
-void setAresta(float aresta_){
+void Cubo::setAresta(float aresta_){
     aresta = aresta_;
 }
-float getAresta(){
+float Cubo::getAresta(){
     return aresta;
 }
 Cubo::~Cubo(){
