@@ -1,0 +1,142 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.6"/>
+<title>Calculos Geometricos: Código-Fonte de include/run.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Calculos Geometricos
+   </div>
+   <div id="projectbrief">Laboratorio 2 - Linguagem de Programação 1 - IMD/UFRN</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Gerado por Doxygen 1.8.6 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Busca');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Página&#160;Principal</span></a></li>
+      <li><a href="pages.html"><span>Páginas&#160;relacionadas</span></a></li>
+      <li><a href="annotated.html"><span>Classes</span></a></li>
+      <li class="current"><a href="files.html"><span>Arquivos</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Busca" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>Lista&#160;de&#160;Arquivos</span></a></li>
+      <li><a href="globals.html"><span>Arquivos&#160;Membros</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Todos</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Arquivos</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Funções</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Definições e Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Páginas</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">run.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="run_8h.html">Vá para a documentação deste arquivo.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef RUN_H</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define RUN_H</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="geomath_8h.html">geomath.h</a>&quot;</span></div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#include &lt;iostream&gt;</span></div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#include &lt;string&gt;</span></div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#include &lt;memory&gt;</span></div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#include &lt;fstream&gt;</span></div>
+<div class="line"><a name="l00014"></a><span class="lineno"><a class="line" href="classRun.html">   14</a></span>&#160;<span class="keyword">class </span><a class="code" href="classRun.html">Run</a>{</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="keyword">private</span>:</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;    std::ifstream file_instrucoes; </div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    std::string nome_forma; </div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    <span class="keywordtype">float</span> valor1;   </div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    <span class="keywordtype">float</span> valor2;   </div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    <span class="keywordtype">float</span> valor3;   </div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    <span class="keywordtype">float</span> area;     </div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    <span class="keywordtype">float</span> perimetro;</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    <span class="keywordtype">float</span> volume;   </div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    <span class="keywordtype">int</span> argc;     </div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    <span class="keywordtype">char</span> ** argv;</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    std::unique_ptr&lt;Circulo&gt; circulo; </div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    std::unique_ptr&lt;Cubo&gt; cubo; </div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    std::unique_ptr&lt;Esfera&gt; esfera; </div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    std::unique_ptr&lt;Paralelepipedo&gt; paralelepipedo; </div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    std::unique_ptr&lt;Piramide&gt; piramide; </div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    std::unique_ptr&lt;Quadrado&gt; quadrado; </div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    std::unique_ptr&lt;Retangulo&gt; retangulo; </div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    std::unique_ptr&lt;Triangulo&gt; triangulo; </div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    std::unique_ptr&lt;Geomath&gt; geometricos; </div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    <a class="code" href="classRun.html#ad3af9975706606aa76ff5c900c87f6cd">Run</a>(<span class="keywordtype">int</span> argc_, <span class="keywordtype">char</span> * argv_[]);</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classRun.html#a4591e282a4faacbf80bc14b51ae899a2">iniciar</a>();</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classRun.html#a3a426e59a8b2982a679123cd56310805">instrucoes</a>();</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    ~<a class="code" href="classRun.html">Run</a>();</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;};</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="ttc" id="classRun_html_a4591e282a4faacbf80bc14b51ae899a2"><div class="ttname"><a href="classRun.html#a4591e282a4faacbf80bc14b51ae899a2">Run::iniciar</a></div><div class="ttdeci">void iniciar()</div><div class="ttdoc">Função responsável por detectar a operação solicitada pelo usuário e realizá-la. </div><div class="ttdef"><b>Definition:</b> run.cpp:34</div></div>
+<div class="ttc" id="classRun_html_ad3af9975706606aa76ff5c900c87f6cd"><div class="ttname"><a href="classRun.html#ad3af9975706606aa76ff5c900c87f6cd">Run::Run</a></div><div class="ttdeci">Run(int argc_, char *argv_[])</div><div class="ttdoc">Construtor da classe Run. </div><div class="ttdef"><b>Definition:</b> run.cpp:15</div></div>
+<div class="ttc" id="classRun_html_a3a426e59a8b2982a679123cd56310805"><div class="ttname"><a href="classRun.html#a3a426e59a8b2982a679123cd56310805">Run::instrucoes</a></div><div class="ttdeci">void instrucoes()</div><div class="ttdef"><b>Definition:</b> run.cpp:121</div></div>
+<div class="ttc" id="geomath_8h_html"><div class="ttname"><a href="geomath_8h.html">geomath.h</a></div><div class="ttdoc">Cabeçalho da classe Geomath. </div></div>
+<div class="ttc" id="classRun_html"><div class="ttname"><a href="classRun.html">Run</a></div><div class="ttdef"><b>Definition:</b> run.h:14</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Gerado em Domingo, 22 de Abril de 2018 16:34:40 para Calculos Geometricos por &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.6
+</small></address>
+</body>
+</html>
