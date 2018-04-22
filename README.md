@@ -1,4 +1,4 @@
-Desenvolvido por Eliaquim dos Santos Costa Laboratório 2 da disciplina de Linguagem de Programação 1 - Instituto Metrópole Digital / UFRN | 2018.1
+Desenvolvido por Eliaquim dos Santos Costa | Laboratório 2 da disciplina de Linguagem de Programação 1 - Instituto Metrópole Digital / UFRN | 2018.1
 
 Compilação: 
 -----------
