@@ -1,20 +1,13 @@
 #include "triangulo.h"
 
-Triangulo::Triangulo(float altura_, float base_){
-    altura = altura_;
-    base = base_;
+Triangulo::Triangulo(float lado_){
+    lado = lado_;
 }
-void Triangulo::setAltura(float altura_){
-    altura = altura_;
+void Triangulo::setLado(float lado_){
+    lado = lado_;
 }
-void Triangulo::setBase(float base_){
-    base = base_;
-}
-float Triangulo::getAltura(){
-    return altura;
-}
-float Triangulo::getBase(){
-    return base;
+float Triangulo::getLado(){
+    return lado;
 }
 Triangulo::~Triangulo(){
 

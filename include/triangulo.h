@@ -3,15 +3,11 @@
 
 class Triangulo{
 private:
-    float altura;
-    float base;
-
+    float lado;
 public:
-    Triangulo(float altura_, float base_);
-    void setAltura(float altura_);
-    void setBase(float base_);
-    float getAltura();
-    float getBase();
+    Triangulo(float lado_);
+    void setLado(float lado_);
+    float getLado();
     ~Triangulo();
 };
 

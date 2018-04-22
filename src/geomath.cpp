@@ -46,7 +46,9 @@ float Geomath::areaRetangulo(Retangulo & retangulo){
     return area;
 }
 float Geomath::areaTriangulo(Triangulo & triangulo){
-    float area = (triangulo.getAltura() * triangulo.getBase())/2;
+    float base = triangulo.getLado();
+    float altura = sqrt(pow(base, 2) - pow(base/2, 2));
+    float area = (base*altura)/2;
     return area;
 }
 float Geomath::areaEsfera(Esfera & esfera){
@@ -89,9 +91,9 @@ float Geomath::perimetroRetangulo(Retangulo & retangulo){
     return perimetro;
 }
 float Geomath::perimetroTriangulo(Triangulo & triangulo){
-    float lado1 = triangulo.getBase();
-    float lado2 = triangulo.getBase();
-    float lado3 = triangulo.getBase();
+    float lado1 = triangulo.getLado();
+    float lado2 = triangulo.getLado();
+    float lado3 = triangulo.getLado();
     float perimetro = lado1 + lado2 + lado3;
     return perimetro;
 }
