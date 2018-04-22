@@ -7,9 +7,10 @@ SRC = ./src/
 
 $(PROG):$(OBJS)
 	$(CC) $(CPPFLAGS) $(OBJS) -o $(PROG) 
+	mkdir build
 	mv *.o ./build
 	mv geometria ./bin
-	
+		
 main.o:
 	$(CC) $(CPPFLAGS) -c $(SRC)main.cpp
 run.o:
@@ -34,3 +35,4 @@ triangulo.o:
 	$(CC) $(CPPFLAGS) -c $(SRC)triangulo.cpp
 clean:
 	`rm -f core ./build/*.o` 
+	rmdir build
