@@ -1,6 +1,11 @@
 #ifndef ESFERA_H
 #define ESFERA_H
 
+/**
+ * @file    esfera.h
+ * @brief   Cabeçalho da classe Esfera
+*/
+
 class Esfera{
 private:
     float raio;

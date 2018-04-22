@@ -1,5 +1,10 @@
 #include "retangulo.h"
 
+/**
+ * @file    retangulo.cpp
+ * @brief   Classe Retangulo
+*/
+
 Retangulo::Retangulo(float altura_, float largura_){
     altura = altura_;
     largura = largura_;

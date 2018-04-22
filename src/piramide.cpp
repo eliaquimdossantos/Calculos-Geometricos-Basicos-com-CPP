@@ -1,5 +1,10 @@
 #include "piramide.h"
 
+/**
+ * @file    piramide.cpp
+ * @brief   Classe Piramide
+*/
+
 Piramide::Piramide(float largura_base_, float altura_piramide_){
     largura_base = largura_base_;
     altura_piramide = altura_piramide_;

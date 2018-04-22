@@ -1,6 +1,11 @@
 #ifndef PARELELEPIPEDO_H
 #define PARELELEPIPEDO_H
 
+/**
+ * @file    paralelepipedo.h
+ * @brief   Cabeçalho da classe Paralelepipedo
+*/
+
 class Paralelepipedo{
 private:
     float largura;

@@ -1,5 +1,8 @@
 #include "esfera.h"
-
+/**
+ * @file    esfera.cpp
+ * @brief   Classe Esfera
+*/
 Esfera::Esfera(float raio_){
     raio = raio_;
 }

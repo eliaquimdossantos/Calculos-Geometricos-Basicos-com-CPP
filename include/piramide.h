@@ -1,6 +1,11 @@
 #ifndef PIRAMIDE_H
 #define PIRAMIDE_H
 
+/**
+ * @file    piramide.h
+ * @brief   Cabeçalho da classe Piramide
+*/
+
 class Piramide{
 private:
     float largura_base;

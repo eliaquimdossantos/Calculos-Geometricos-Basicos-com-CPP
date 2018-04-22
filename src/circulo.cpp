@@ -1,5 +1,8 @@
 #include "circulo.h"
-
+/**
+ * @file    circulo.cpp
+ * @brief   Classe Circulo
+*/
 Circulo::Circulo(float raio_){
     raio = raio_;
 }

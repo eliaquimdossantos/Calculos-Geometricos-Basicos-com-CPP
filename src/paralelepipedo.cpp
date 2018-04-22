@@ -1,5 +1,8 @@
 #include "paralelepipedo.h"
-
+/**
+ * @file    paralelepipedo.cpp
+ * @brief   Classe Paralelepipedo
+*/
 Paralelepipedo::Paralelepipedo(float largura_, float altura_, float profundidade_){
     largura = largura_;
     altura = altura_;

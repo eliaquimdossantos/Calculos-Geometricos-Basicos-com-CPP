@@ -1,6 +1,11 @@
 #ifndef CUBO_H
 #define CUBO_H
 
+/**
+ * @file    cubo.h
+ * @brief   Cabeçalho da classe Cubo
+*/
+
 class Cubo{
 private:
     float aresta;

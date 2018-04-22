@@ -1,6 +1,11 @@
 #ifndef CIRCULO_H
 #define CIRCULO_H
 
+/**
+ * @file    circulo.h
+ * @brief   Cabeçalho da classe Círculo
+*/
+
 class Circulo{
 private:
     float raio;

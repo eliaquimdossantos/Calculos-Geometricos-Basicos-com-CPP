@@ -11,6 +11,12 @@
 #include "esfera.h"
 #include <cmath>
 #include <string>
+
+/**
+ * @file    geomath.h
+ * @brief   Cabeçalho da classe Geomath
+*/
+
 class Geomath{
 public:
     Geomath();

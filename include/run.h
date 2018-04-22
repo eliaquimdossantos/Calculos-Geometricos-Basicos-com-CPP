@@ -7,6 +7,7 @@
 #include <memory>
 #include <fstream>
 /**
+ * @file    run.h
  * @brief   Cabeçalho da classe Run
 */
 

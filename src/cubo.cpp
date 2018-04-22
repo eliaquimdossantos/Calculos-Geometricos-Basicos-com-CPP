@@ -1,5 +1,8 @@
 #include "cubo.h"
-
+/**
+ * @file    cubo.cpp
+ * @brief   Classe Cubo
+*/
 Cubo::Cubo(float aresta_){
     aresta = aresta_;
 }
