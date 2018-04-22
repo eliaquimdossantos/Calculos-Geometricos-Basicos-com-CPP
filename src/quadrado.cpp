@@ -9,4 +9,6 @@ void Quadrado::setLado(float lado_){
 float Quadrado::getLado(){
     return lado;
 }
-Quadrado::~Quadrado();
+Quadrado::~Quadrado(){
+    
+}
