@@ -10,7 +10,8 @@ float Geomath::areaCirculo(Circulo & circulo){
     return area;
 }
 float Geomath::areaCubo(Cubo & cubo){
-    float area = 6 * (cubo.getAresta());
+    float aresta = cubo.getAresta();
+    float area = 6 * pow(aresta, 2);
     return area;
 }
 float Geomath::areaPiramide(Piramide & piramide){
@@ -25,7 +26,7 @@ float Geomath::areaPiramide(Piramide & piramide){
     float area_base = pow(larg_base, 2);
     float area_lateral = area_face_triangular*4;
 
-    float area = area_base * area_lateral;
+    float area = area_base + area_lateral;
     return area;
 }
 float Geomath::areaParalelepipedo(Paralelepipedo & paralelepipedo){
@@ -52,7 +53,8 @@ float Geomath::areaTriangulo(Triangulo & triangulo){
     return area;
 }
 float Geomath::areaEsfera(Esfera & esfera){
-    float area = 4 * PI * esfera.getRaio();
+    float raio = esfera.getRaio();
+    float area = 4 * PI * pow(raio, 2);
     return area;
 }
 float Geomath::perimetroCirculo(Circulo & circulo){
@@ -64,7 +66,8 @@ float Geomath::volumeEsfera(Esfera & esfera){
     return volume;
 }
 float Geomath::volumeCubo(Cubo & cubo){
-    float volume = pow(cubo.getAresta(), 3);
+    float aresta = cubo.getAresta();
+    float volume = pow(aresta, 3);
     return volume;
 }
 float Geomath::volumePiramide(Piramide & piramide){
