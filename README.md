@@ -17,8 +17,6 @@ com o diretório principal aberto.
 
 Instruções de uso:
 ------------------
-#Desenvolvido por Eliaquim dos Santos Costa
-
 Este software disponibiliza o calculo de area e perimetro/volume
 para as determinadas formas geometricas:
   -Triangulo
